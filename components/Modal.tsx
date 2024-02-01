@@ -29,7 +29,7 @@ const Modal: React.FC<Props> = ({
           <Dialog.Description className="mb-5 text-sm leading-normal text-center">
             {description}
           </Dialog.Description>
-          <div>{children}</div>s
+          <div>{children}</div>
           <Dialog.Close asChild>
             <button
               onClick={authModal.onClose}
